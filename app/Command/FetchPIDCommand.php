@@ -40,6 +40,8 @@ final class FetchPIDCommand extends Command
 
         $this->pidActions->insertFromJson($pointsOfSale);
 
+        $output->writeln('Done!');
+
         return Command::SUCCESS;
     }
 }
