@@ -1,0 +1,2 @@
+parameters:
+    pointsOfSaleUrl: https://data.pid.cz/pointsOfSale/json/pointsOfSale.json

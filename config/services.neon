@@ -1,0 +1,12 @@
+services:
+    - App\Router\RouterFactory::createRouter
+    - App\Api\Controllers\PIDController
+    - App\Command\FetchPIDCommand(pointsOfSaleUrl: %pointsOfSaleUrl%)
+    - App\Repository\PointOfSaleRepository
+    - App\Actions\PIDActions
+
+search:
+	-	in: %appDir%
+		classes:
+			- *Factory
+			- *Facade
