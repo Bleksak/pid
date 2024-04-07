@@ -28,6 +28,11 @@ To quickly dive in, use PHP's built-in server:
 
 Then, open `http://localhost:8000` in your browser to view the welcome page.
 
+Data Fetching
+-------------
+
+Run `php bin/console fetch` command
+
 URL Format
 ----------
 
