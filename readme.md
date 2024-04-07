@@ -28,3 +28,8 @@ To quickly dive in, use PHP's built-in server:
 
 Then, open `http://localhost:8000` in your browser to view the welcome page.
 
+URL Format
+----------
+
+`http://localhost:8000/?date=2024-04-07 16:00:00`
+
